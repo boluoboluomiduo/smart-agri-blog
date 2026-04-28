@@ -95,7 +95,7 @@ export default defineConfig({
       { text: '行业资讯', link: '/news/' },
       { text: '地方案例', link: '/cases/' },
       { text: '技术标准', link: '/standards/' },
-      { text: '订阅', link: '/feed.xml', target: '_blank', noIcon: true }
+      { text: '订阅↗', link: '/feed.xml', target: '_blank', noIcon: true }
     ],
 
     sidebar: dynamicSidebar || defaultSidebar,
