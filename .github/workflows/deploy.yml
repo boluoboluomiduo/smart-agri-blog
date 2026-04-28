@@ -46,20 +46,24 @@ jobs:
       - name: 采集新闻数据
         id: fetch-news
         run: |
+          set -e  # 遇到错误立即退出
+          
           echo "=== 开始采集新闻 ==="
-          python3 scripts/fetch_news.py
+          python3 scripts/fetch_news.py || { echo "fetch_news.py 执行失败"; exit 1; }
           
           echo "=== 更新侧边栏 ==="
-          python3 scripts/update_sidebar.py
+          python3 scripts/update_sidebar.py || { echo "update_sidebar.py 执行失败"; exit 1; }
           
           echo "=== 生成 RSS Feed ==="
-          python3 scripts/generate_feed.py
+          python3 scripts/generate_feed.py || { echo "generate_feed.py 执行失败"; exit 1; }
           
           echo "=== 生成 Sitemap ==="
-          python3 scripts/generate_sitemap.py
+          python3 scripts/generate_sitemap.py || { echo "generate_sitemap.py 执行失败"; exit 1; }
           
           echo "=== 生成文章索引 ==="
-          python3 scripts/generate_articles_json.py
+          python3 scripts/generate_articles_json.py || { echo "generate_articles_json.py 执行失败"; exit 1; }
+          
+          echo "=== 所有脚本执行成功 ==="
 
       - name: 检查是否有新内容
         id: check-changes
@@ -143,5 +147,9 @@ jobs:
         if: failure()
         run: |
           echo "=== 部署失败 ==="
-          echo "工作流执行失败，请检查日志"
+          echo "工作流执行失败，请检查上方日志"
+          echo "可能的失败原因："
+          echo "1. 采集新闻数据失败 - 检查Python脚本"
+          echo "2. 构建网站失败 - 检查npm依赖或VitePress配置"
+          echo "3. 部署失败 - 检查GitHub Pages权限"
           exit 1
