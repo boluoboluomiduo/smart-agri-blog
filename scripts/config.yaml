@@ -1,0 +1,182 @@
+# 智慧农业新闻聚合系统配置文件
+
+# 输出目录（相对于脚本目录）
+output_dir: "../docs"
+
+# 每个来源最大抓取文章数
+max_articles_per_source: 5
+
+# 日期格式
+date_format: "%Y-%m-%d"
+
+# ─────────────────────────────────────────────────────────
+# 内容抓取设置
+# ─────────────────────────────────────────────────────────
+
+# 是否自动抓取文章正文（设为 false 可加快采集速度）
+fetch_content: true
+
+# 请求间隔（秒），避免频繁请求被封
+request_delay: 1.0
+
+# 内容摘要最大长度（字符数）
+summary_max_length: 200
+
+# ─────────────────────────────────────────────────────────
+# 网络请求设置
+# ─────────────────────────────────────────────────────────
+
+# SSL 证书验证（默认开启，设为 false 可跳过验证但不推荐）
+verify_ssl: true
+
+# 最大重试次数
+max_retries: 3
+
+# 初始重试延迟（秒）
+retry_delay: 2.0
+
+# ─────────────────────────────────────────────────────────
+# 并发设置
+# ─────────────────────────────────────────────────────────
+
+# 是否启用并发抓取（默认 false，设为 true 可显著提升速度）
+enable_concurrent: false
+
+# 最大并发数（建议 2-5，过大可能被目标服务器封禁）
+max_workers: 3
+
+# 正文提取候选选择器（按优先级尝试匹配）
+# 如果留空或注释掉，将使用内置默认选择器
+# content_selectors:
+#   - "article"
+#   - ".article-content"
+#   - ".content"
+#   - "main"
+
+# 要移除的元素选择器（广告、导航等）
+# remove_selectors:
+#   - ".ad"
+#   - ".advertisement"
+#   - "nav"
+#   - ".sidebar"
+
+# ─────────────────────────────────────────────────────────
+# 新闻来源配置
+# ─────────────────────────────────────────────────────────
+# 每个来源可配置项：
+#   name:         来源名称（必填）
+#   url:          列表页URL（必填）
+#   category:     分类目录（必填）：policies / news / cases / standards
+#   type:         类型（可选，默认 html）：html / rss
+#   verify_ssl:   SSL 验证（可选，默认继承全局设置）
+#   selectors:    CSS选择器配置（可选）
+#     list:       列表容器选择器
+#     title:      标题选择器（相对于列表项）
+#     link:       链接选择器
+#     date:       日期选择器
+#     content:    正文选择器（可选，用于特定来源）
+#   content:      是否抓取正文（可选，默认继承全局设置）
+#   max_articles: 该来源最大文章数（可选，继承全局设置）
+
+sources:
+  # ── 政策法规类 ──
+  - name: "农业农村部市场与信息化司"
+    url: "https://scs.moa.gov.cn/gzdt/"
+    type: "html"
+    category: "policies"
+    selectors:
+      list: "ul.commonList li, div.commonList li, .gzdt_list li, ul.list_14 li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  # ── 行业资讯类 ──
+  - name: "农业农村部智慧农业专题"
+    url: "https://www.moa.gov.cn/ztzl/zhnyzxd/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.commonList li, div.commonList li, .list li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "农业农村部智慧农业-地方实践"
+    url: "https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/"
+    type: "html"
+    category: "cases"
+    selectors:
+      list: "ul.commonList li, div.commonList li, .list li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "农业农村部智慧农业-标准规范"
+    url: "https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/"
+    type: "html"
+    category: "standards"
+    selectors:
+      list: "ul.commonList li, div.commonList li, .list li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "中国农业信息网"
+    url: "https://www.agri.cn/xxh/zhny/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.list li, div.list li, .newsList li, .article-list li, ul li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  # ── 行业资讯类（新增来源） ──
+  - name: "农民日报"
+    url: "https://www.farmer.com.cn/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.imgTextList li, ul#ul_text li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "农视网-科技"
+    url: "http://www.ntv.cn/keji/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.news_sannong_list li, ul.normal-list li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "中国农机化信息网"
+    url: "http://www.amic.agri.cn/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.newslist li, ul.infoList li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+  - name: "中国绿色食品发展中心"
+    url: "http://www.greenfood.org.cn/"
+    type: "html"
+    category: "news"
+    selectors:
+      list: "ul.list_ul li, ul.com_list_ul li"
+      title: "a"
+      link: "a"
+      date: "span.date, span.time, em, span:last-child"
+
+# ─────────────────────────────────────────────────────────
+# RSS 订阅源配置示例（可选启用）
+# ─────────────────────────────────────────────────────────
+# rss_sources:
+#   - name: "示例RSS源"
+#     url: "https://example.com/feed.xml"
+#     category: "news"
+#     content: false  # RSS通常已有摘要，可设为false

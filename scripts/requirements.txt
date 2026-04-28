@@ -1,0 +1,4 @@
+requests>=2.31
+beautifulsoup4>=4.12
+pyyaml>=6.0
+urllib3>=2.0
