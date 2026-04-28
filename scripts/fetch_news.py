@@ -501,8 +501,6 @@ def write_article_md(article: dict, source_name: str, category: str,
 
     # 添加正文内容
     if article.get("content"):
-
-    body_lines.append(f"\n[阅读原文]({article['link']})\n")
         body_lines.append(article["content"])
         body_lines.append("")
 
