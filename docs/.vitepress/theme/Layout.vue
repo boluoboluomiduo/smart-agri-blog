@@ -137,7 +137,7 @@ function formatLink(link) {
   return link
 }
 
-watch(() => route.path, async () => {
+watch(() => route.path, async (newPath) => {
   currentCategory.value = getCurrentCategory()
   
   if (shouldShowListView.value) {
@@ -146,9 +146,8 @@ watch(() => route.path, async () => {
     listArticles.value = []
   }
   
-  // 设置导航栏active状态
   setActiveNavLink()
-}, { immediate: true })
+}, { immediate: false })
 
 onMounted(async () => {
   currentCategory.value = getCurrentCategory()
@@ -159,7 +158,6 @@ onMounted(async () => {
     listArticles.value = []
   }
   
-  // 设置导航栏active状态
   setActiveNavLink()
 })
 </script>
