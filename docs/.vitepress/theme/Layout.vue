@@ -137,7 +137,7 @@ function formatLink(link) {
   return link
 }
 
-watch(() => route.path, async (newPath) => {
+watch(() => route.path, async () => {
   currentCategory.value = getCurrentCategory()
   
   if (shouldShowListView.value) {
@@ -147,17 +147,5 @@ watch(() => route.path, async (newPath) => {
   }
   
   setActiveNavLink()
-}, { immediate: false })
-
-onMounted(async () => {
-  currentCategory.value = getCurrentCategory()
-  
-  if (shouldShowListView.value) {
-    await loadArticles(currentCategory.value)
-  } else {
-    listArticles.value = []
-  }
-  
-  setActiveNavLink()
-})
+}, { immediate: true })
 </script>
