@@ -1,0 +1,88 @@
+# ==================== Node.js ====================
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/.cache/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# Python 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# Python 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==================== 脚本数据 ====================
+scripts/.article_hashes.json
+scripts/run.log
+scripts/fetch_test.log
+
+# ==================== 日志文件 ====================
+*.log
+
+# ==================== 环境变量 ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==================== IDE ====================
+.claude/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==================== 其他 ====================
+*.bak
+*.backup
+
+# 日志文件
+scripts/run.log
+scripts/fetch_test.log

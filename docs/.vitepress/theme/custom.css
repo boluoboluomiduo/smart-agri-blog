@@ -1,0 +1,749 @@
+:root {
+  --vp-c-brand-1: #2d7a3a;
+  --vp-c-brand-2: #359645;
+  --vp-c-brand-3: #3dab50;
+  --vp-c-brand-soft: rgba(45, 122, 58, 0.14);
+  --vp-home-hero-name-color: #2d7a3a;
+
+  /* 自定义农业主题色 */
+  --agri-green-light: #e8f5e9;
+  --agri-green-main: #2d7a3a;
+  --agri-green-dark: #1b5e20;
+  --agri-accent: #66bb6a;
+  --agri-bg: #f8faf8;
+  --agri-card-bg: #ffffff;
+  --agri-border: rgba(45, 122, 58, 0.12);
+  --agri-shadow: 0 2px 12px rgba(45, 122, 58, 0.08);
+  --agri-shadow-hover: 0 8px 24px rgba(45, 122, 58, 0.15);
+}
+
+.dark {
+  --vp-c-brand-1: #3dab50;
+  --vp-c-brand-2: #359645;
+  --vp-c-brand-3: #2d7a3a;
+  --vp-c-brand-soft: rgba(61, 171, 80, 0.16);
+  --agri-green-light: #1a3a1e;
+  --agri-green-main: #4caf50;
+  --agri-green-dark: #81c784;
+  --agri-accent: #66bb6a;
+  --agri-bg: #0d1f0f;
+  --agri-card-bg: #1a2e1c;
+  --agri-border: rgba(61, 171, 80, 0.2);
+  --agri-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --agri-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ========== Hero 区域美化 ========== */
+.VPHero {
+  padding: 80px 0 60px !important;
+}
+
+.VPHero .container {
+  max-width: 1200px;
+}
+
+.VPHero .name {
+  font-size: 56px !important;
+  font-weight: 800 !important;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--agri-green-main) 0%, var(--agri-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  color: var(--vp-c-text-1);
+  margin-top: 8px;
+}
+
+.VPHero .tagline {
+  font-size: 18px !important;
+  color: var(--vp-c-text-2);
+  max-width: 666px;
+  line-height: 1.7;
+  margin-top: 16px;
+}
+
+.VPHero .actions {
+  margin-top: 0px;
+  gap: 12px;
+}
+
+.VPHero .action {
+  border-radius: 10px !important;
+  padding: 12px 28px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPHero .action:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--agri-shadow-hover);
+}
+
+.VPHero .action.brand {
+  background: linear-gradient(135deg, var(--agri-green-main) 0%, var(--agri-accent) 100%) !important;
+  border: none !important;
+}
+
+.VPHero .action.alt {
+  border: 1.5px solid var(--agri-border) !important;
+  background: var(--agri-card-bg) !important;
+}
+
+.VPHero .image {
+  max-width: 380px !important;
+}
+
+.VPHero .image-container {
+  transform: scale(1.08);
+}
+
+/* ========== 顶部导航栏布局调整 ========== */
+/* 导航栏容器与页面正文对齐 */
+.VPNavBar .container {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+/* 隐藏汉堡菜单按钮 */
+.VPNavBar .hamburger {
+  display: none !important;
+}
+
+/* 导航项间距调整 */
+.VPNavBarMenuLink {
+  position: relative;
+  padding: 0 10px !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border-radius: 8px !important;
+}
+
+/* 使用 ::before 作为下划线，避免与外部链接图标(::after)冲突 */
+.VPNavBarMenuLink::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--agri-green-main), var(--agri-accent));
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.VPNavBarMenuLink:hover {
+  color: var(--agri-green-main) !important;
+  background: var(--agri-green-light) !important;
+  transform: translateY(-1px);
+}
+
+.VPNavBarMenuLink:hover::before {
+  width: 70%;
+}
+
+.VPNavBarMenuLink.active {
+  color: var(--agri-green-main) !important;
+  font-weight: 600 !important;
+}
+
+.VPNavBarMenuLink.active::before {
+  width: 70%;
+}
+
+/* 隐藏外部链接图标 - 确保完全隐藏 */
+.VPNavBarMenuLink.no-icon::after,
+.VPNavBarMenuLink[target="_blank"].no-icon::after,
+.VPNavBarMenuLink[href*="feed"]::after,
+.VPNavBarMenuLink.vp-external-link-icon::after,
+.VPNavBarMenuLink[target="_blank"]::after,
+.VPNavBarMenuLink.vp-external-link-icon::before,
+.VPNavBarMenuLink[href="/smart-agri-blog/feed.xml"]::after {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}
+
+/* 确保外部链接图标完全隐藏 */
+.VPNavBarMenuLink[target="_blank"] .VPExternalLinkIcon,
+.VPNavBarMenuLink[target="_blank"] svg,
+.VPNavBarMenuLink.no-icon .VPExternalLinkIcon,
+.VPNavBarMenuLink.no-icon svg,
+.VPNavBarMenuLink[href*="feed"] .VPExternalLinkIcon,
+.VPNavBarMenuLink[href*="feed"] svg {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+}
+
+/* 移动端导航菜单样式 */
+.VPNavScreenMenuLink {
+  position: relative;
+  padding: 12px 24px !important;
+  transition: all 0.3s ease !important;
+  border-left: 3px solid transparent !important;
+}
+
+.VPNavScreenMenuLink:hover {
+  background: var(--agri-green-light) !important;
+  border-left-color: var(--agri-green-main) !important;
+  padding-left: 28px !important;
+}
+
+.VPNavScreenMenuLink.active {
+  color: var(--agri-green-main) !important;
+  font-weight: 600 !important;
+  background: var(--agri-green-light) !important;
+  border-left-color: var(--agri-green-main) !important;
+}
+
+/* ========== Features 卡片美化 ========== */
+.VPFeatures {
+  padding: 40px 0 60px !important;
+  background: var(--agri-bg);
+}
+
+.VPFeatures .container {
+  max-width: 1200px;
+}
+
+.VPFeatures .items {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 24px !important;
+  justify-content: center !important;
+}
+
+.VPFeatures .item {
+  flex: 0 0 calc(50% - 12px) !important;
+  max-width: calc(50% - 12px) !important;
+  box-sizing: border-box !important;
+  background: var(--agri-card-bg) !important;
+  border-radius: 16px !important;
+  border: 1px solid var(--agri-border) !important;
+  padding: 32px !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: var(--agri-shadow) !important;
+  margin: 0 !important;
+}
+
+.VPFeatures .item:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--agri-shadow-hover) !important;
+  border-color: var(--agri-accent) !important;
+}
+
+.VPFeatures .item .icon {
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 14px !important;
+  background: var(--agri-green-light) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px !important;
+  margin-bottom: 20px !important;
+}
+
+.VPFeatures .item .title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: var(--vp-c-text-1);
+  margin-bottom: 10px !important;
+}
+
+.VPFeatures .item .details {
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  color: var(--vp-c-text-2);
+}
+
+.VPFeatures .item .link-text {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--agri-green-main);
+  transition: all 0.2s ease;
+}
+
+.VPFeatures .item:hover .link-text {
+  color: var(--agri-green-dark);
+  transform: translateX(4px);
+}
+
+/* ========== RSS 订阅区域美化 ========== */
+.rss-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.rss-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rss-icon {
+  font-size: 32px;
+}
+
+.rss-desc {
+  font-size: 15px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 28px;
+}
+
+.rss-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.rss-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1.5px solid transparent;
+}
+
+.rss-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--agri-shadow-hover);
+}
+
+.rss-btn-icon {
+  font-size: 18px;
+}
+
+.rss-rss {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  color: white !important;
+}
+
+.rss-atom {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  color: white !important;
+}
+
+.rss-json {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white !important;
+}
+
+.rss-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rss-category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rss-cat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: var(--agri-card-bg);
+  border: 1px solid var(--agri-border);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.rss-cat:hover {
+  border-color: var(--agri-accent);
+  box-shadow: var(--agri-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.rss-cat-icon {
+  font-size: 22px;
+}
+
+.rss-cat-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  flex: 1;
+  text-align: left;
+}
+
+.rss-cat-format {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--agri-green-main);
+  background: var(--agri-green-light);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* ========== 侧边栏文章标题单行截断 ========== */
+.VPSidebar .VPSidebarItem .item .link {
+  min-width: 0 !important;
+}
+
+.VPSidebar .VPSidebarItem .item .text {
+  min-width: 0 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* ========== 响应式适配 ========== */
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 36px !important;
+  }
+
+  .VPHero .text {
+    font-size: 24px !important;
+  }
+
+  .VPHero .tagline {
+    font-size: 15px !important;
+  }
+
+  .VPFeatures .item {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .rss-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rss-category-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ========== 分类索引页美化 ========== */
+.category-page {
+  margin-top: 24px;
+}
+
+.category-page .article-list__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.category-page .article-card {
+  background: var(--agri-card-bg);
+  border: 1px solid var(--agri-border);
+  border-radius: 14px;
+  padding: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--agri-shadow);
+  overflow: hidden;
+}
+
+.category-page .article-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--agri-shadow-hover);
+  border-color: var(--agri-accent);
+}
+
+.category-page .article-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 24px;
+  height: 100%;
+}
+
+.category-page .article-card__title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--vp-c-text-1);
+  margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.category-page .article-card__meta {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--agri-border);
+}
+
+.category-page .article-card__date {
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.category-page .article-card__source {
+  opacity: 0.75;
+}
+
+.category-page .article-card__desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .category-page .article-list__grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .category-page .article-card__link {
+    padding: 20px;
+  }
+
+  .category-page .article-card__title {
+    font-size: 16px;
+  }
+}
+
+/* 文章详情页美化 */
+.vp-doc article {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.vp-doc article h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.vp-doc article .meta-info {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--agri-border);
+}
+
+.vp-doc article .meta-info .date {
+  font-weight: 500;
+}
+
+.vp-doc article .meta-info .source {
+  opacity: 0.8;
+}
+
+/* ========== 侧边栏样式优化 ========== */
+/* 隐藏侧边栏滚动条 */
+.VPSidebar {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.VPSidebar::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* 隐藏侧边栏三角符号 */
+.VPSidebarGroup .title .arrow,
+.VPSidebarItem .item .arrow {
+  display: none !important;
+}
+
+/* 确保侧边栏分组始终展开 */
+.VPSidebarGroup {
+  display: block !important;
+}
+
+.VPSidebarGroup.collapsed {
+  display: block !important;
+}
+
+/* 优化侧边栏整体样式 */
+.VPSidebar {
+  background: var(--agri-card-bg) !important;
+  border-right: 1px solid var(--agri-border) !important;
+  box-shadow: var(--agri-shadow) !important;
+}
+
+.VPSidebar .VPSidebarGroup {
+  padding: 16px 0 !important;
+}
+
+.VPSidebar .VPSidebarItem {
+  margin: 0 !important;
+}
+
+.VPSidebar .VPSidebarItem .item {
+  padding: 8px 16px !important;
+  margin: 0 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.VPSidebar .VPSidebarItem .item:hover {
+  background: var(--agri-green-light) !important;
+}
+
+.VPSidebar .VPSidebarItem .item.active {
+  background: var(--agri-green-light) !important;
+  color: var(--agri-green-main) !important;
+  font-weight: 500 !important;
+}
+
+.VPSidebar .VPSidebarItem .item .link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+}
+
+.VPSidebar .VPSidebarItem .item .text {
+  flex: 1 !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+/* 侧边栏标题样式 */
+.VPSidebarGroup .title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: var(--vp-c-text-1) !important;
+  padding: 0 16px 8px !important;
+  margin: 0 !important;
+  border-bottom: 1px solid var(--agri-border) !important;
+  margin-bottom: 8px !important;
+}
+
+/* ========== 自定义模板页面样式 ========== */
+.VPDoc .article-list-template,
+.VPDoc .article-detail-template {
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 强制减少文章列表和详情页面的顶部间距 */
+.VPDoc:has(.article-list-template),
+.VPDoc:has(.article-detail-template) {
+  padding-top: 0 !important;
+}
+
+.VPDoc:has(.article-list-template) .VPDocContent,
+.VPDoc:has(.article-detail-template) .VPDocContent {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.VPDoc:has(.article-list-template) .content-container,
+.VPDoc:has(.article-detail-template) .content-container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.VPDoc:has(.article-list-template) .content,
+.VPDoc:has(.article-detail-template) .content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.VPDoc .article-list-template ~ .vp-doc,
+.VPDoc .article-detail-template ~ .vp-doc {
+  display: none;
+}
+
+.VPDoc:has(.article-list-template) .vp-doc > h1,
+.VPDoc:has(.article-detail-template) .vp-doc > h1 {
+  display: none;
+}
+
+.VPDoc:has(.article-list-template) .VPDocAsideSkeleton,
+.VPDoc:has(.article-detail-template) .VPDocAsideSkeleton {
+  display: none;
+}
+
+/* ========== 隐藏侧边栏页面样式 ========== */
+.VPDoc.has-sidebar .aside {
+  display: none;
+}
+
+.VPDoc.no-sidebar .content-container {
+  max-width: 100% !important;
+}
+
+.VPDoc.no-sidebar .content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 当侧边栏隐藏时，内容区域占满全屏 */
+.VPDoc:has(.article-list-template) .content-container,
+.VPDoc:has(.article-detail-template) .content-container {
+  max-width: 100% !important;
+}
+
+.VPDoc:has(.article-list-template) .content,
+.VPDoc:has(.article-detail-template) .content {
+  max-width: 100% !important;
+  padding: 8px 0 !important;
+}
+
+/* 隐藏侧边栏切换按钮 */
+.VPDoc:has(.article-list-template) .VPSidebar,
+.VPDoc:has(.article-detail-template) .VPSidebar {
+  display: none !important;
+}
+
+/* 内容区域居中 */
+.VPDoc:has(.article-list-template) .VPDocContent,
+.VPDoc:has(.article-detail-template) .VPDocContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
