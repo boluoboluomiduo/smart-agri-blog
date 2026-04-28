@@ -3,12 +3,14 @@
     <template #doc-before>
       <ArticleListView
         v-if="shouldShowListView"
+        :key="currentCategory"
         :articles="listArticles"
         :category="currentCategory"
         :per-page="10"
       />
       <ArticleDetailView
         v-else-if="shouldShowDetailView"
+        :key="route.path"
       />
     </template>
   </DefaultTheme.Layout>
