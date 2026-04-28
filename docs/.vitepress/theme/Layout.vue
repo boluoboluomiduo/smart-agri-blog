@@ -30,7 +30,7 @@ const currentCategory = ref('')
 const CATEGORY_MAP = {
   policies: '政策法规',
   news: '行业资讯',
-  cases: '应用案例',
+  cases: '地方案例',
   standards: '技术标准'
 }
 

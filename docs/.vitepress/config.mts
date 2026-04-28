@@ -13,7 +13,7 @@ function loadDynamicSidebar() {
       const categoryMap: Record<string, string> = {
         '政策法规': '/policies/',
         '行业资讯': '/news/',
-        '应用案例': '/cases/',
+        '地方案例': '/cases/',
         '技术标准': '/standards/',
       }
       for (const group of data) {
