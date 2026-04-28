@@ -28,6 +28,7 @@ const route = useRoute()
 
 const listArticles = ref([])
 const currentCategory = ref('')
+let currentRequestId = 0
 
 const CATEGORY_MAP = {
   policies: '政策法规',
@@ -95,8 +96,15 @@ async function loadArticles(category) {
     return
   }
 
+  const requestId = ++currentRequestId
+
   try {
     const sidebarData = await import('../sidebar.json')
+    
+    if (requestId !== currentRequestId) {
+      return
+    }
+    
     const groups = sidebarData.default
     const group = groups.find(g => g.text === targetLabel)
 
@@ -110,6 +118,8 @@ async function loadArticles(category) {
           source: item.source || '',
           description: item.description || ''
         }))
+    } else {
+      listArticles.value = []
     }
   } catch (error) {
     console.error('Failed to load sidebar data:', error)
