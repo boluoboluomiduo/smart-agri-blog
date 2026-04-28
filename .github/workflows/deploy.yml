@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 0 * * *'   # 每天 UTC 0:00（北京时间 8:00）
   workflow_dispatch:        # 支持手动触发
+    inputs:
+      reason:
+        description: '触发原因'
+        required: false
+        default: '手动触发部署'
 
 jobs:
   build-deploy:
@@ -12,59 +17,132 @@ jobs:
       contents: write
       pages: write
       id-token: write
-    env:
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    steps:
-      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v5
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  # 获取完整历史用于git操作
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v5
         with:
           node-version: 24
+          cache: 'npm'    # 缓存npm依赖
 
-      - uses: actions/setup-python@v6
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
+          cache: 'pip'    # 缓存pip依赖
 
       - name: 安装依赖
         run: |
-          npm install
-          pip install -r scripts/requirements.txt
+          echo "=== 安装 Node.js 依赖 ==="
+          npm install --no-audit
+          
+          echo "=== 安装 Python 依赖 ==="
+          pip install -r scripts/requirements.txt --quiet
 
-      - name: 采集新闻
+      - name: 采集新闻数据
+        id: fetch-news
         run: |
+          echo "=== 开始采集新闻 ==="
           python3 scripts/fetch_news.py
+          
+          echo "=== 更新侧边栏 ==="
           python3 scripts/update_sidebar.py
+          
+          echo "=== 生成 RSS Feed ==="
           python3 scripts/generate_feed.py
+          
+          echo "=== 生成 Sitemap ==="
+          python3 scripts/generate_sitemap.py
+          
+          echo "=== 生成文章索引 ==="
+          python3 scripts/generate_articles_json.py
+
+      - name: 检查是否有新内容
+        id: check-changes
+        run: |
+          git status
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "没有新内容需要提交"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "检测到新内容"
+          fi
 
       - name: 提交新内容
+        if: steps.check-changes.outputs.has_changes == 'true'
         run: |
+          echo "=== 配置 Git 用户 ==="
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          git diff --staged --quiet || git commit -m "auto: 更新资讯 $(date +%Y-%m-%d)"
-          git push
+          
+          echo "=== 添加变更文件 ==="
+          git add docs/ scripts/run.log 2>/dev/null || git add docs/
+          
+          echo "=== 提交变更 ==="
+          git commit -m "auto: 更新资讯 $(date +%Y-%m-%d)"
+          
+          echo "=== 推送到仓库 ==="
+          git push origin master
 
       - name: 构建网站
-        run: npm run build
-
-      - name: 检查构建输出
+        id: build
         run: |
-          echo "构建输出目录内容："
-          ls -la docs/.vitepress/dist/
-          echo "检查index.html是否存在："
-          if [ -f docs/.vitepress/dist/index.html ]; then
-            echo "index.html存在"
+          echo "=== 开始构建网站 ==="
+          npm run build
+          
+          echo "=== 构建完成 ==="
+          echo "build_success=true" >> $GITHUB_OUTPUT
+
+      - name: 验证构建输出
+        if: steps.build.outputs.build_success == 'true'
+        run: |
+          echo "=== 验证构建输出 ==="
+          DIST_DIR="docs/.vitepress/dist"
+          
+          if [ -d "$DIST_DIR" ]; then
+            echo "构建目录存在"
           else
-            echo "index.html不存在"
+            echo "构建目录不存在"
             exit 1
           fi
-          echo "检查gh-pages分支："
-          git branch -a | grep gh-pages || echo "gh-pages分支不存在"
+          
+          if [ -f "$DIST_DIR/index.html" ]; then
+            echo "index.html 存在"
+          else
+            echo "index.html 不存在"
+            exit 1
+          fi
+          
+          echo "=== 构建输出目录内容 ==="
+          ls -la "$DIST_DIR/"
 
       - name: 部署到 GitHub Pages
+        if: steps.build.outputs.build_success == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
           publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: 部署成功通知
+        if: success()
+        run: |
+          echo "=== 部署成功 ==="
+          echo "网站已成功部署到 GitHub Pages"
+          echo "访问地址: https://boluoboluomiduo.github.io/smart-agri-blog/"
+
+      - name: 部署失败通知
+        if: failure()
+        run: |
+          echo "=== 部署失败 ==="
+          echo "工作流执行失败，请检查日志"
+          exit 1
