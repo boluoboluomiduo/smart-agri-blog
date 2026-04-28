@@ -53,8 +53,11 @@ function getCurrentCategory() {
   return Object.keys(CATEGORY_MAP).find(cat => path.startsWith(`${cat}/`)) || ''
 }
 
-// 动态设置导航栏的active状态
+// 动态设置导航栏的active状态（仅在客户端执行）
 function setActiveNavLink() {
+  // SSR环境中没有document，直接返回
+  if (typeof document === 'undefined') return
+  
   nextTick(() => {
     const category = getCurrentCategory()
     
