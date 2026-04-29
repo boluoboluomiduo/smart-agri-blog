@@ -16,6 +16,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-04-29-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
