@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>智慧农业资讯站</title>
+    <title>智慧农业资讯站 - 行业资讯</title>
     <description>汇聚智慧农业政策法规、行业资讯、地方案例与技术标准，助力农业现代化发展</description>
-    <link>https://smart-agri-blog.github.io/smart-agri-blog</link>
+    <link>https://smart-agri-blog.github.io/smart-agri-blog/news/</link>
     <language>zh-CN</language>
     <webMaster>智慧农业资讯站 (智慧农业资讯站)</webMaster>
     <generator>Smart Agri Blog Feed Generator</generator>
     <lastBuildDate>Wed, 29 Apr 2026 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://smart-agri-blog.github.io/smart-agri-blogfeed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://smart-agri-blog.github.io/smart-agri-blog/news/news/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>玉米“五好”春播方案 让丰产增收走稳走实</title>
       <link>https://www.ntv.cn/content/1/679/991679754.html</link>
@@ -544,16 +544,6 @@
       <category>行业资讯</category>
     </item>
     <item>
-      <title>关于举办2026年“数据要素×”大赛的通知2026-04-28</title>
-      <link>https://scs.moa.gov.cn/gzdt/202604/t20260428_6483710.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202604/t20260428_6483710.htm</guid>
-      <pubDate>Tue, 28 Apr 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>各省、自治区、直辖市、新疆生产建设兵团数据管理部门、党委网信办、人力资源和社会保障厅(局)、住房和城乡建设厅(局、委)、交通运输厅(局、委)、农业农村(农牧)厅(局、委)、商务主管部门、卫生健康委、应急管理厅(局)、体育行政部门、医保局、气象局、文物局、中医药主管部门,总工会,中国人民银行上海总部,各省、市、自治区分行,金融监管总局各监管局,中国证监会各证监局,中国科学院院属各单位,民航各地区管理...
-</description>
-      <category>政策法规</category>
-    </item>
-    <item>
       <title>科技如何赋能春耕生产跑出“加速度”？ 这场现场会上“干货”多</title>
       <link>https://www.agri.cn/zt/zhzz/zxdt/202604/t20260423_8830757.htm</link>
       <guid isPermaLink="false">https://www.agri.cn/zt/zhzz/zxdt/202604/t20260423_8830757.htm</guid>
@@ -563,68 +553,6 @@
 现场会上，田间地头展示的“科技春耕图”让与会代表们眼前一亮。在诸暨市山下湖镇新桔城省级粮食生产功能区，高速插秧机、行走式插秧机在田间来回穿梭、匀速作业，一株株秧苗被整齐均匀地插入水田。...
 </description>
       <category>行业资讯</category>
-    </item>
-    <item>
-      <title>“指间”管农田　“屏上”治乡村——福建深入推进数智赋能乡村振兴观察2026-04-21</title>
-      <link>https://scs.moa.gov.cn/gzdt/202604/t20260421_6483454.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202604/t20260421_6483454.htm</guid>
-      <pubDate>Tue, 21 Apr 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>农民日报全媒体记者　高文　郭诗瑀　蔡茂楷
-福建省莆田市涵江区大洋城乡融合农场曾经是荒地，如今几百亩智慧大棚林立，蓝莓挂满枝头，一片生机盎然。
-武夷山市兴田镇南源岭村服务中心的智慧大屏上，实时显现村里角角落落，让乡村治理“耳聪目明”。
-厦门市同安区大同街道田洋村村委会主任陈水让拍摄村务村情短视频，提升乡村知名度，吸引很多游客慕名而来。
-...
-</description>
-      <category>政策法规</category>
-    </item>
-    <item>
-      <title>关于征集“人工智能+农业”典型应用场景的通知2026-04-20</title>
-      <link>https://scs.moa.gov.cn/gzdt/202604/t20260420_6483397.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202604/t20260420_6483397.htm</guid>
-      <pubDate>Mon, 20 Apr 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>各省、自治区、直辖市农业农村（农牧）、渔业厅（局、委），新疆生产建设兵团农业农村局
-，
-有关单位
-：
-为
-深入实施“
-人工智能+
-”行动，
-进
-一步推动
-《农业农村部关于大力发展智慧农业的指导意见》《全国智慧农业行动计划（2024
-—
-2028年）》落地，
-农业农村部市场与信息化司
-决定
-在全国
-征集
-发布一批
-“人工智能
-+农业
-”
-典型
-应用场景
-，
-示范引领各地“人工智能
-+
-...
-</description>
-      <category>政策法规</category>
-    </item>
-    <item>
-      <title>菠萝不愁卖了，生猪、鸡蛋、甘蔗们可以学到什么？2026-04-17</title>
-      <link>https://scs.moa.gov.cn/gzdt/202604/t20260417_6483298.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202604/t20260417_6483298.htm</guid>
-      <pubDate>Fri, 17 Apr 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>今年春天，在中国大陆最南端的红土地上，徐闻“菠萝的海”又迎来了一个丰收年。菠萝开市价格稳定在1.5元/斤，农民每卖出一斤能净赚一块钱，以一亩地能收6000斤菠萝计算，一亩菠萝就能带来6000元左右的纯收入。在农产品价格普遍下行的年份里，这个成绩单让人眼前一亮。
-徐闻菠萝已经成为果农的致富果
-反观另一边：生猪价格大幅下跌导致养殖亏损持续加深，鸡蛋批发价同比低3%，蔬菜均价同比低7.2% 。...
-</description>
-      <category>政策法规</category>
     </item>
     <item>
       <title>大棚里的“数字春耕图”</title>
@@ -639,17 +567,6 @@
       <category>行业资讯</category>
     </item>
     <item>
-      <title>关于公开征求《肉牛健康养殖数据采集技术要求（征求意见稿）...</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202604/t20260409_6483100.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202604/t20260409_6483100.htm</guid>
-      <pubDate>Thu, 09 Apr 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-标准规范</author>
-      <description>根据农业行业标准制修订计划和标准起草有关规定,《肉牛健康养殖数据采集技术要求》已完成征求意见稿(附件1)及编制说明(附件2)的编写工作。现向社会公开征求意见。有关单位和公众可通过电子邮箱(xxzxyjgh@163.com)向农业农村部农业信息化标准化技术委员会秘书处提交反馈意见。意见反馈截止时间为2026年5月9日。
-农业农村部农业信息化标准化技术委员会秘书处
-</description>
-      <category>技术标准</category>
-    </item>
-    <item>
       <title>人工智能“开处方” 智慧农机进麦田</title>
       <link>https://www.agri.cn/zt/zhzz/zxdt/202604/t20260415_8828456.htm</link>
       <guid isPermaLink="false">https://www.agri.cn/zt/zhzz/zxdt/202604/t20260415_8828456.htm</guid>
@@ -659,59 +576,6 @@
 “这次施肥可以每亩用8公斤到10公斤尿素，促进弱苗转化。等进入拔节期，是肥水需求关键期，每亩再追尿素8公斤到10公斤，再配合灌溉，每亩用水20方到25方。...
 </description>
       <category>行业资讯</category>
-    </item>
-    <item>
-      <title>立体化产销“一张网”　草原鲜美“原味”出圈——内蒙古优质农畜产品畅达全国观察2026-03-31</title>
-      <link>https://scs.moa.gov.cn/gzdt/202603/t20260331_6482847.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202603/t20260331_6482847.htm</guid>
-      <pubDate>Tue, 31 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>农民日报全媒体记者　马晓刚　李昊
-近日,内蒙古优质农畜产品走进大湾区活动现场,两位工作人员正专注处理内蒙古特色烤全羊。　资料图
-数据是最好的证明。2025年,内蒙古农牧业品牌总价值达6071亿元,品牌溢价率平均提升8%;内蒙古优质农畜产品展销中心全国总数达23个,销售额近3亿元;2025年,全年产销优质农畜产品销售额超6000亿元……
-好山好水出好品。...
-</description>
-      <category>政策法规</category>
-    </item>
-    <item>
-      <title>农业农村部办公厅关于印发《2026年农业农村部展会活动计划》的通知2026-03-31</title>
-      <link>https://www.moa.gov.cn/govpublic/SCYJJXXS/202604/t20260402_6482903.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/govpublic/SCYJJXXS/202604/t20260402_6482903.htm</guid>
-      <pubDate>Tue, 31 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>高级检索
-索 引  号
-07B050403202600052
-信息所属单位
-市场与信息化司
-信息名称
-农业农村部办公厅关于印发《2026年农业农村部展会活动计划》的通知
-文　　号
-农办市[2026]5号
-生效日期
-2026年03月31日
-发布日期
-2026年03月31日
-内容概述
-经农业农村部常务会议审议，现将《2026年农业农村部展会活动计划》予以印发，并就有关事宜通知如下。
-索 引  号
-...
-</description>
-      <category>政策法规</category>
-    </item>
-    <item>
-      <title>农业农村部市场与信息化司关于2026年第一季度政府网站检查情况的通报2026-03-30</title>
-      <link>https://www.moa.gov.cn/govpublic/SCYJJXXS/202603/t20260330_6482770.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/govpublic/SCYJJXXS/202603/t20260330_6482770.htm</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>农业农村部市场与信息化司关于2026年第一季度政府网站检查情况的通报2026-03-30
-
-来源: 农业农村部市场与信息化司  
-日期: 2026-03-30
-
-阅读原文</description>
-      <category>政策法规</category>
     </item>
     <item>
       <title>广西宁明：智慧农机唱主角 春耕跑出“加速度”</title>
@@ -724,20 +588,6 @@
 ...
 </description>
       <category>行业资讯</category>
-    </item>
-    <item>
-      <title>2026年农业人工智能与市场化培训班在京举办2026-03-27</title>
-      <link>https://scs.moa.gov.cn/gzdt/202603/t20260327_6482759.htm</link>
-      <guid isPermaLink="false">https://scs.moa.gov.cn/gzdt/202603/t20260327_6482759.htm</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部市场与信息化司</author>
-      <description>2026年农业人工智能与市场化培训班在京举办2026-03-27
-
-来源: 农业农村部市场与信息化司  
-日期: 2026-03-27
-
-阅读原文</description>
-      <category>政策法规</category>
     </item>
     <item>
       <title>“巴掌田、山坡地”如何用上好农机？——重庆丘陵山区春耕见闻</title>
@@ -757,177 +607,6 @@
 ...
 </description>
       <category>行业资讯</category>
-    </item>
-    <item>
-      <title>首届智慧农业创新大赛之智能搬运机器人获奖作品</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482167.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482167.htm</guid>
-      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>ZNJ-DP01
-智能搬运机器人
-一、团队介绍
-浙江省农业机械研究院智能农机团队主要开展现代农业装备的技术创新、试验示范及技术服务工作。现有团队成员9人,其中正高级工程师2人,高级工程师1人,硕士以上学历5人,建有金华市丘陵山地适用农机重点实验室。
-二、装备亮点
-一是全向型轮式设计。
-...
-</description>
-      <category>地方案例</category>
-    </item>
-    <item>
-      <title>首届智慧农业创新大赛之巡田无人机赛道获奖作品</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</guid>
-      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>农田智能巡检与分析平台
-一、团队介绍
-农芯(南京)智慧农业研究院有限公司是一家集智慧农业技术研发、产品创新和产业服务于一体的国家级高新技术企业。主要致力于新一代农业传感器、智能装备、农业大数据智能及农业信息技术产品开发及产业化研究,包括智慧农业/数字乡村发展建设、农业大数据中心建设、优质农产品智慧供应链、智慧烟草农业等业务板块。
-二、装备亮点
-一是
-...
-</description>
-      <category>地方案例</category>
-    </item>
-    <item>
-      <title>首届智慧农业创新大赛之对靶施药除草机器人赛道获奖作品</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260306_6482035.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260306_6482035.htm</guid>
-      <pubDate>Fri, 06 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>3WYP-160DB
-对靶施药除草机器人
-一、团队介绍
-合肥多加农业科技有限公司成立于2012年7月,从事智能农机装备研发、生产、销售、服务。主要产品有农业植保机器人、智能播种机、智能施肥机,以及PWM变量喷头、智能喷雾控制系统、风幕系统等多种核心零部件和系统。
-二、装备亮点
-3WYP-160DB对靶施药除草机器人
-一是采用高地隙三轮驱动无人驾驶底盘
-。
-动力强劲,操控灵活。
-二是自主导航作业。...
-</description>
-      <category>地方案例</category>
-    </item>
-    <item>
-      <title>农业农村部农业信息化标准化技术委员会2025年度年会在北京召开</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202601/t20260128_6481070.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202601/t20260128_6481070.htm</guid>
-      <pubDate>Wed, 28 Jan 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-标准规范</author>
-      <description>2026年1月27日,农业农村部农业信息化标准化技术委员会(以下简称“农信标委”)2025年度年会在京召开,市场与信息化司有关负责同志和农信标委全体委员参加会议。
-会议强调,要深刻认识新时代农业信息化标准化工作的重要意义,认真贯彻落实韩俊部长在农业农村标准化工作推进会上的部署要求,准确把握农业信息化标准化工作面临的新形势与新任务。
-...
-</description>
-      <category>技术标准</category>
-    </item>
-    <item>
-      <title>关于公开征求《小麦供需平衡表编制规范（征求意见稿）》行业...</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202601/t20260113_6480613.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202601/t20260113_6480613.htm</guid>
-      <pubDate>Tue, 13 Jan 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-标准规范</author>
-      <description>根据农业行业标准制修订计划和标准起草有关规定,《小麦供需平衡表编制规范(征求意见稿)》已完成征求意见稿(附件1)及编制说明(附件2)的编写工作。现向社会公开征求意见。有关单位和公众可通过电子邮箱(xxzxyjgh@163.com)向农业农村部农业信息化标准化技术委员会秘书处提交反馈意见。意见反馈截止时间为2026年2月13日。
-农业农村部农业信息化标准化技术委员会秘书处
-2
-02
-6
-年
-1
-...
-</description>
-      <category>技术标准</category>
-    </item>
-    <item>
-      <title>2025年智慧农业典型案例：香菇智慧全产业链模式</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479648.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479648.htm</guid>
-      <pubDate>Fri, 12 Dec 2025 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>香菇智慧全产业链模式
-河南省西峡县农业农村局
-一、基本情况
-西峡县
-2020
-年启动香菇产业智慧化转型,创新构建“龙头
-企业主导
-+
-合作社协同+农
-户参与”的三级联动机制,推广“统一菌种供应、统一环境调控、统一数据管理、统一品牌销售”的标准化管理体系,建成全国首个“菌种研发
-—
-智能制棒
-—
-智慧管控
-—
-精深加工
-—
-菌渣循环”全链条数字化香菇产业示范园。...
-</description>
-      <category>地方案例</category>
-    </item>
-    <item>
-      <title>2025年智慧农业典型案例：牛奶智慧全产业链模式</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</guid>
-      <pubDate>Fri, 12 Dec 2025 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>牛奶智慧全产业链模式
-浙江一鸣食品股份有限公司
-一、基本情况
-浙江一鸣食品股份有限公司
-成立于1991年,
-是一家集奶牛育种养殖、乳制品与烘焙食品加工、物流配送、连锁经营于一体的企业。
-公司坚持以“奶牛”和“牛奶”探索“三产接二连一”融合发展路径。
-现已
-建成3座自有牧场、3大加工基地、
-7
-大区域配送中心,拥有线下零售门店近2000家。2020年企业于
-A股
-上市后,公司聚焦智能
-订
-...
-</description>
-      <category>地方案例</category>
-    </item>
-    <item>
-      <title>关于公开征求《农用北斗定位导航设备性能试验方法（征求意见...</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202512/t20251204_6479462.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202512/t20251204_6479462.htm</guid>
-      <pubDate>Thu, 04 Dec 2025 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-标准规范</author>
-      <description>根据农业行业标准制修订计划和标准起草有关规定,《农用北斗定位导航设备性能试验方法》已完成征求意见稿(附件
-1
-)及编制说明(附件
-2
-)的编写工作。现向社会公开征求意见。有关单位和公众可通过电子邮箱(
-xxzxyjgh@163.com
-)向
-农业农村部农业信息化标准化技术委员会秘书处
-提交反馈意见。意见反馈截止时间为
-2025
-年
-12
-月
-28
-日。
-...
-</description>
-      <category>技术标准</category>
-    </item>
-    <item>
-      <title>关于发布《智慧农业标准体系建设指南》的公告</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202511/t20251107_6478762.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202511/t20251107_6478762.htm</guid>
-      <pubDate>Fri, 07 Nov 2025 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-标准规范</author>
-      <description>为推进智慧农业产业发展,加快构建我国智慧农业标准体系,提升标准化工作水平,夯实标准在推进智慧农业建设中的基础性、引领性作用,农业农村部农业信息化标准化技术委员会组织编制了《智慧农业标准体系建设指南》,经征求各方意见、修改完善后,现予发布。
-特此公告。
-农业农村部农业信息化标准化技术委员
-会
-（农业农村部信息中心代章）
-2025年11月
-7
-</description>
-      <category>技术标准</category>
     </item>
   </channel>
 </rss>

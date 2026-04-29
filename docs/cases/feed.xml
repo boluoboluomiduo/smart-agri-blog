@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>智慧农业资讯站 - 应用案例</title>
+    <title>智慧农业资讯站 - 地方案例</title>
     <description>汇聚智慧农业政策法规、行业资讯、地方案例与技术标准，助力农业现代化发展</description>
-    <link>https://smart-agri-blog.github.io/cases/</link>
+    <link>https://smart-agri-blog.github.io/smart-agri-blog/cases/</link>
     <language>zh-CN</language>
     <webMaster>智慧农业资讯站 (智慧农业资讯站)</webMaster>
     <generator>Smart Agri Blog Feed Generator</generator>
-    <lastBuildDate>Wed, 22 Apr 2026 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://smart-agri-blog.github.io/cases/cases/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>首届智慧农业创新大赛之巡田无人机赛道获奖作品</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</guid>
-      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>农田智能巡检与分析平台
-一、团队介绍
-农芯(南京)智慧农业研究院有限公司是一家集智慧农业技术研发、产品创新和产业服务于一体的国家级高新技术企业。主要致力于新一代农业传感器、智能装备、农业大数据智能及农业信息技术产品开发及产业化研究,包括智慧农业/数字乡村发展建设、农业大数据中心建设、优质农产品智慧供应链、智慧烟草农业等业务板块。
-二、装备亮点
-一是
-...
-</description>
-      <category>应用案例</category>
-    </item>
+    <lastBuildDate>Wed, 29 Apr 2026 08:00:00 +0000</lastBuildDate>
+    <atom:link href="https://smart-agri-blog.github.io/smart-agri-blog/cases/cases/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>首届智慧农业创新大赛之智能搬运机器人获奖作品</title>
       <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482167.htm</link>
@@ -38,7 +23,22 @@
 一是全向型轮式设计。
 ...
 </description>
-      <category>应用案例</category>
+      <category>地方案例</category>
+    </item>
+    <item>
+      <title>首届智慧农业创新大赛之巡田无人机赛道获奖作品</title>
+      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</link>
+      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202603/t20260311_6482172.htm</guid>
+      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
+      <author>农业农村部智慧农业-地方实践</author>
+      <description>农田智能巡检与分析平台
+一、团队介绍
+农芯(南京)智慧农业研究院有限公司是一家集智慧农业技术研发、产品创新和产业服务于一体的国家级高新技术企业。主要致力于新一代农业传感器、智能装备、农业大数据智能及农业信息技术产品开发及产业化研究,包括智慧农业/数字乡村发展建设、农业大数据中心建设、优质农产品智慧供应链、智慧烟草农业等业务板块。
+二、装备亮点
+一是
+...
+</description>
+      <category>地方案例</category>
     </item>
     <item>
       <title>首届智慧农业创新大赛之对靶施药除草机器人赛道获奖作品</title>
@@ -57,31 +57,7 @@
 动力强劲,操控灵活。
 二是自主导航作业。...
 </description>
-      <category>应用案例</category>
-    </item>
-    <item>
-      <title>2025年智慧农业典型案例：牛奶智慧全产业链模式</title>
-      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</link>
-      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</guid>
-      <pubDate>Fri, 12 Dec 2025 08:00:00 +0000</pubDate>
-      <author>农业农村部智慧农业-地方实践</author>
-      <description>牛奶智慧全产业链模式
-浙江一鸣食品股份有限公司
-一、基本情况
-浙江一鸣食品股份有限公司
-成立于1991年,
-是一家集奶牛育种养殖、乳制品与烘焙食品加工、物流配送、连锁经营于一体的企业。
-公司坚持以“奶牛”和“牛奶”探索“三产接二连一”融合发展路径。
-现已
-建成3座自有牧场、3大加工基地、
-7
-大区域配送中心,拥有线下零售门店近2000家。2020年企业于
-A股
-上市后,公司聚焦智能
-订
-...
-</description>
-      <category>应用案例</category>
+      <category>地方案例</category>
     </item>
     <item>
       <title>2025年智慧农业典型案例：香菇智慧全产业链模式</title>
@@ -108,7 +84,31 @@ A股
 —
 菌渣循环”全链条数字化香菇产业示范园。...
 </description>
-      <category>应用案例</category>
+      <category>地方案例</category>
+    </item>
+    <item>
+      <title>2025年智慧农业典型案例：牛奶智慧全产业链模式</title>
+      <link>https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</link>
+      <guid isPermaLink="false">https://www.moa.gov.cn/ztzl/zhnyzxd/dfsj/202512/t20251212_6479649.htm</guid>
+      <pubDate>Fri, 12 Dec 2025 08:00:00 +0000</pubDate>
+      <author>农业农村部智慧农业-地方实践</author>
+      <description>牛奶智慧全产业链模式
+浙江一鸣食品股份有限公司
+一、基本情况
+浙江一鸣食品股份有限公司
+成立于1991年,
+是一家集奶牛育种养殖、乳制品与烘焙食品加工、物流配送、连锁经营于一体的企业。
+公司坚持以“奶牛”和“牛奶”探索“三产接二连一”融合发展路径。
+现已
+建成3座自有牧场、3大加工基地、
+7
+大区域配送中心,拥有线下零售门店近2000家。2020年企业于
+A股
+上市后,公司聚焦智能
+订
+...
+</description>
+      <category>地方案例</category>
     </item>
   </channel>
 </rss>

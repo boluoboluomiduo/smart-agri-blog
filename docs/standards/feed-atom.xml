@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>智慧农业资讯站 - 技术标准</title>
   <subtitle>汇聚智慧农业政策法规、行业资讯、地方案例与技术标准，助力农业现代化发展</subtitle>
-  <id>https://smart-agri-blog.github.io/standards/standards/feed-atom.xml</id>
-  <updated>2026-04-22T00:00:00Z</updated>
+  <id>https://smart-agri-blog.github.io/smart-agri-blog/standards/standards/feed-atom.xml</id>
+  <updated>2026-04-29T00:00:00Z</updated>
   <author><name>智慧农业资讯站</name></author>
-  <link href="https://smart-agri-blog.github.io/standards/" rel="alternate" type="text/html"/>
-  <link href="https://smart-agri-blog.github.io/standards/feed-atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://smart-agri-blog.github.io/smart-agri-blog/standards/" rel="alternate" type="text/html"/>
+  <link href="https://smart-agri-blog.github.io/smart-agri-blog/standards/feed-atom.xml" rel="self" type="application/atom+xml"/>
   <entry>
     <title>关于公开征求《肉牛健康养殖数据采集技术要求（征求意见稿）...</title>
     <id>https://www.moa.gov.cn/ztzl/zhnyzxd/bzgf/bzzj/202604/t20260409_6483100.htm</id>
