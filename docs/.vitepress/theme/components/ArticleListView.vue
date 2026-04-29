@@ -26,6 +26,9 @@
         >
           <div class="card-index">{{ (currentPage - 1) * perPage + index + 1 }}</div>
           <div class="card-content">
+            <div class="card-category">
+              <span class="category-badge">{{ categoryTitle }}</span>
+            </div>
             <h3 class="card-title">{{ item.title }}</h3>
             <div class="card-meta">
               <span v-if="item.date" class="meta-date">
@@ -283,6 +286,20 @@ function formatDate(dateStr) {
   min-width: 0;
 }
 
+.card-category {
+  margin-bottom: 8px;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: var(--agri-green-light);
+  color: var(--agri-green-main);
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
 .card-title {
   font-size: 17px;
   font-weight: 600;
@@ -515,10 +532,14 @@ function formatDate(dateStr) {
   .pagination {
     flex-direction: column;
     gap: 12px;
+    width: 100%;
   }
 
   .page-numbers {
     order: -1;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
   }
 
   .page-info {

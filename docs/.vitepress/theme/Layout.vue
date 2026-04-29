@@ -22,6 +22,7 @@ import { ref, computed, watch, onMounted, nextTick } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import ArticleListView from './components/ArticleListView.vue'
 import ArticleDetailView from './components/ArticleDetailView.vue'
+import { BASE_PATH } from './config.js'
 
 const { frontmatter, page } = useData()
 const route = useRoute()
@@ -36,8 +37,6 @@ const CATEGORY_MAP = {
   cases: '地方案例',
   standards: '技术标准'
 }
-
-const BASE_PATH = '/smart-agri-blog/'
 
 const shouldShowListView = computed(() => {
   const path = page.value.relativePath || ''

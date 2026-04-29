@@ -71,7 +71,7 @@ features:
   </a>
   <a href="/cases/feed.xml" class="rss-cat" target="_blank">
     <span class="rss-cat-icon">🌾</span>
-    <span class="rss-cat-name">应用案例</span>
+    <span class="rss-cat-name">地方案例</span>
     <span class="rss-cat-format">RSS</span>
   </a>
   <a href="/standards/feed.xml" class="rss-cat" target="_blank">

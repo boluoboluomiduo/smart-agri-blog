@@ -57,7 +57,7 @@ def scan_category(docs_dir: str, category: str) -> list[dict]:
     return articles
 
 
-def build_sidebar(docs_dir: str) -> list[dict]:
+def build_sidebar(docs_dir: str, max_articles: int = 500) -> list[dict]:
     """
     构建完整的侧边栏结构。
     返回 VitePress 侧边栏格式的列表。
@@ -73,10 +73,7 @@ def build_sidebar(docs_dir: str) -> list[dict]:
             "items": [],
         }
 
-
-
-        # 只添加最新的18条数据到侧边栏
-        for article in articles[:18]:
+        for article in articles[:max_articles]:
             group["items"].append({
                 "text": article["text"],
                 "link": article["link"],
@@ -106,6 +103,12 @@ def main():
         default=None,
         help="输出 JSON 文件路径（默认为 docs/.vitepress/sidebar.json）",
     )
+    parser.add_argument(
+        "--max-articles",
+        type=int,
+        default=50,
+        help="每个分类最大文章数（默认 50）",
+    )
     args = parser.parse_args()
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -123,8 +126,9 @@ def main():
 
     logger.info("扫描目录: %s", docs_dir)
     logger.info("输出文件: %s", output_path)
+    logger.info("每个分类最大文章数: %d", args.max_articles)
 
-    sidebar = build_sidebar(docs_dir)
+    sidebar = build_sidebar(docs_dir, args.max_articles)
 
     output_dir = os.path.dirname(output_path)
     if output_dir:

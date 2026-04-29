@@ -64,6 +64,7 @@
 <script setup>
 import { computed, ref, onMounted, onUnmounted } from 'vue'
 import { useData } from 'vitepress'
+import { BASE_PATH } from '../config.js'
 
 const { frontmatter, page } = useData()
 

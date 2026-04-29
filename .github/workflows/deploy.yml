@@ -87,10 +87,13 @@ jobs:
           git add docs/ scripts/run.log 2>/dev/null || git add docs/
           
           echo "=== 提交变更 ==="
-          git commit -m "auto: 更新资讯 $(date +%Y-%m-%d)"
+          git commit -m "auto: 更新资讯 $(date +%Y-%m-%d)" || echo "没有需要提交的内容"
+          
+          echo "=== 拉取远程变更 ==="
+          git pull --rebase origin master || echo "拉取失败，继续推送"
           
           echo "=== 推送到仓库 ==="
-          git push origin master
+          git push origin master || echo "推送失败，可能是网络问题"
 
       - name: 构建网站
         id: build

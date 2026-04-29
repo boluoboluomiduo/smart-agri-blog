@@ -495,8 +495,6 @@ def write_article_md(article: dict, source_name: str, category: str,
     body_lines.append(f"> 日期: {article['date']}")
     if summary:
         body_lines.append(f"> 摘要: {summary}")
-    if summary:
-        body_lines.append(f"> 摘要: {summary}")
     body_lines.append("")
 
     # 添加正文内容

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>智慧农业资讯站 - 政策法规</title>
   <subtitle>汇聚智慧农业政策法规、行业资讯、地方案例与技术标准，助力农业现代化发展</subtitle>
-  <id>https://smart-agri-blog.github.io/policies/policies/feed-atom.xml</id>
+  <id>https://smart-agri-blog.github.io/smart-agri-blog/policies/policies/feed-atom.xml</id>
   <updated>2026-04-29T00:00:00Z</updated>
   <author><name>智慧农业资讯站</name></author>
-  <link href="https://smart-agri-blog.github.io/policies/" rel="alternate" type="text/html"/>
-  <link href="https://smart-agri-blog.github.io/policies/feed-atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://smart-agri-blog.github.io/smart-agri-blog/policies/" rel="alternate" type="text/html"/>
+  <link href="https://smart-agri-blog.github.io/smart-agri-blog/policies/feed-atom.xml" rel="self" type="application/atom+xml"/>
   <entry>
     <title>关于举办2026年“数据要素×”大赛的通知2026-04-28</title>
     <id>https://scs.moa.gov.cn/gzdt/202604/t20260428_6483710.htm</id>

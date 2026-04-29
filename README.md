@@ -124,7 +124,7 @@ scripts\run.bat
 |------|---------|------|
 | 政策法规 | `/policies/feed.xml` | `/policies/feed-atom.xml` |
 | 行业资讯 | `/news/feed.xml` | `/news/feed-atom.xml` |
-| 应用案例 | `/cases/feed.xml` | `/cases/feed-atom.xml` |
+| 地方案例 | `/cases/feed.xml` | `/cases/feed-atom.xml` |
 | 技术标准 | `/standards/feed.xml` | `/standards/feed-atom.xml` |
 
 ### 使用示例

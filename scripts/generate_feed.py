@@ -10,7 +10,7 @@
 - feed-atom.xml     # Atom 格式订阅源
 - policies/feed.xml # 政策法规分类订阅源
 - news/feed.xml     # 行业资讯分类订阅源
-- cases/feed.xml   # 应用案例分类订阅源
+- cases/feed.xml   # 地方案例分类订阅源
 - standards/feed.xml # 技术标准分类订阅源
 
 用法:
@@ -46,7 +46,7 @@ logger = setup_logger(__name__)
 FEED_CONFIG = {
     "title": "智慧农业资讯站",
     "description": "汇聚智慧农业政策法规、行业资讯、地方案例与技术标准，助力农业现代化发展",
-    "link": "https://smart-agri-blog.github.io",
+    "link": "https://smart-agri-blog.github.io/smart-agri-blog",
     "language": "zh-CN",
     "author": "智慧农业资讯站",
     "generator": "Smart Agri Blog Feed Generator",

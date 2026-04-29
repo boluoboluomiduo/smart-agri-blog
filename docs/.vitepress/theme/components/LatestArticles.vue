@@ -14,15 +14,13 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vitepress'
-
-// VitePress base 路径配置，与 config.mts 中的 base 保持一致
-const BASE_PATH = '/smart-agri-blog/'
+import { BASE_PATH } from '../config.js'
 
 // 分类映射（与 utils.py CATEGORIES、config.mts categoryMap 保持一致）
 const CATEGORY_MAP = {
   policies: '政策法规',
   news: '行业资讯',
-  cases: '应用案例',
+  cases: '地方案例',
   standards: '技术标准'
 }
 
@@ -37,29 +35,16 @@ const currentCategory = computed(() => {
 
 onMounted(async () => {
   try {
-    // 直接导入sidebar.json
     const sidebarData = await import('../../sidebar.json')
     const groups = sidebarData.default
     
-    // 打印当前分类和路由信息，用于调试
-    console.log('Current route path:', route.path)
-    console.log('Current category:', currentCategory.value)
-    
-    // 获取当前分类对应的标题
     const targetLabel = CATEGORY_MAP[currentCategory.value]
     if (!targetLabel) {
-      console.error(`Unknown category: ${currentCategory.value}`)
       return
     }
     
-    console.log('Target label:', targetLabel)
-    
-    // 找到当前分类的文章
     const group = groups.find(g => g.text === targetLabel)
     if (group && group.items) {
-      console.log('Found group with items:', group.items.length)
-      
-      // 过滤掉"总览"项目，只保留文章链接，并确保所有链接以 base path 开头
       let filteredArticles = group.items
         .filter(item => !item.text.includes('总览'))
         .map(item => ({
@@ -69,13 +54,7 @@ onMounted(async () => {
           source: item.source || ''
         }))
       
-      console.log('Filtered articles:', filteredArticles.length)
-      
-      // 取最新的8条文章
       latestArticles.value = filteredArticles.slice(0, 8)
-      console.log('Displaying articles:', latestArticles.value.length)
-    } else {
-      console.error('No articles found for category:', targetLabel)
     }
   } catch (error) {
     console.error('Failed to load sidebar data:', error)

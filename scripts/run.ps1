@@ -1,28 +1,27 @@
 ﻿#Requires -Version 5.1
 # ============================================================
-# 智慧农业资讯站 - PowerShell 一键更新脚本
+# Smart Agri Blog - PowerShell Update Script
 #
-# 功能：抓取新闻 → 更新侧边栏 → 生成 RSS → 构建网站
-# 用法：
-#   .\run.ps1              # 完整流程：抓取 + 构建
-#   .\run.ps1 -Fetch       # 仅抓取，不构建
-#   .\run.ps1 -Build       # 仅构建，不抓取
-#   .\run.ps1 -Feed        # 仅生成 RSS feed
-#   .\run.ps1 -Sitemap     # 仅生成 Sitemap
-#   .\run.ps1 -DryRun      # 预览模式
-#   .\run.ps1 -Concurrent  # 启用并发抓取
-#   .\run.ps1 -Workers 5   # 指定并发数为 5
+# Usage:
+#   .\run.ps1              Full pipeline: fetch + build
+#   .\run.ps1 -Fetch       Fetch only, no build
+#   .\run.ps1 -Build       Build only, no fetch
+#   .\run.ps1 -Feed        Generate RSS feed only
+#   .\run.ps1 -Sitemap     Generate Sitemap only
+#   .\run.ps1 -DryRun      Preview mode
+#   .\run.ps1 -Concurrent  Enable concurrent fetching
+#   .\run.ps1 -Workers 5   Set concurrent worker count
 # ============================================================
 
 [CmdletBinding()]
 param(
-    [switch]$Fetch,          # 仅抓取，不构建
-    [switch]$Build,          # 仅构建，不抓取
-    [switch]$Feed,           # 仅生成 RSS feed
-    [switch]$Sitemap,        # 仅生成 Sitemap
-    [switch]$DryRun,         # 预览模式
-    [switch]$Concurrent,     # 启用并发抓取
-    [int]$Workers = 0        # 并发工作线程数（0 表示使用配置文件默认）
+    [switch]$Fetch,
+    [switch]$Build,
+    [switch]$Feed,
+    [switch]$Sitemap,
+    [switch]$DryRun,
+    [switch]$Concurrent,
+    [int]$Workers = 0
 )
 
 $ErrorActionPreference = "Continue"
@@ -30,121 +29,156 @@ $ScriptDir = $PSScriptRoot
 $ProjectDir = Split-Path $ScriptDir -Parent
 $LogFile = Join-Path $ScriptDir "run.log"
 
-# 颜色定义
 function Write-Log($Message, $Level = "Info") {
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $color = switch ($Level) {
-        "Error" { "Red" }
+        "Error"   { "Red" }
         "Warning" { "Yellow" }
         "Success" { "Green" }
-        default { "White" }
+        default   { "White" }
     }
     $logEntry = "[$timestamp] $Message"
     Write-Host $logEntry -ForegroundColor $color
     Add-Content -Path $LogFile -Value $logEntry -Encoding UTF8
 }
 
-# 切换到项目目录
+function Get-PythonCommand {
+    if (Get-Command py -ErrorAction SilentlyContinue) {
+        return @("py", "-3")
+    }
+    if (Get-Command python -ErrorAction SilentlyContinue) {
+        return @("python", "")
+    }
+    if (Get-Command python3 -ErrorAction SilentlyContinue) {
+        return @("python3", "")
+    }
+    return $null
+}
+
+$PythonCmd = Get-PythonCommand
+if (-not $PythonCmd) {
+    Write-Log "[ERROR] Python not found. Please install Python from https://www.python.org/downloads/" "Error"
+    exit 1
+}
+
+$PythonExe = $PythonCmd[0]
+$PythonArgs = $PythonCmd[1]
+
+function Invoke-PythonScript($ScriptName, $ExtraArgs = @()) {
+    $scriptPath = Join-Path $ScriptDir $ScriptName
+    $allArgs = @($PythonArgs) + $ExtraArgs + @("`"$scriptPath`"")
+    
+    try {
+        $output = & $PythonExe @allArgs 2>&1
+        $output | ForEach-Object { Write-Host $_ }
+        if ($LASTEXITCODE -ne 0) {
+            return $false
+        }
+        return $true
+    } catch {
+        Write-Log "Failed to execute $ScriptName`: $_" "Error"
+        return $false
+    }
+}
+
 Set-Location $ProjectDir
 
-Write-Log "===== 智慧农业资讯站 - 开始运行 =====" "Success"
-Write-Log ""
+Write-Log "===== Smart Agri Blog - Starting =====" "Success"
+Write-Log "Python: $PythonExe $PythonArgs"
 
-# ── 参数解析 ──
-$DoFetch = -not $Build -and -not $Feed -and -not $Sitemap
-$DoBuild = -not $Fetch -and -not $Feed -and -not $Sitemap
+$DoFetch = -not ($Build -or $Feed -or $Sitemap)
+$DoBuild = -not ($Fetch -or $Feed -or $Sitemap)
 $DoFeedOnly = $Feed
 $DoSitemapOnly = $Sitemap
 
-# ── 第1步：抓取新闻 ──
 if ($DoFetch) {
-    Write-Log "第1步：开始抓取新闻..."
-    $fetchCmd = "python `"$ScriptDir\fetch_news.py`""
-    if ($DryRun) { $fetchCmd += " --dry-run" }
-    if ($Concurrent) { $fetchCmd += " --concurrent" }
-    if ($Workers -gt 0) { $fetchCmd += " --workers $Workers" }
+    Write-Log "Step 1: Fetching news..."
     
-    try {
-        Invoke-Expression $fetchCmd 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "新闻抓取完成" "Success"
-    } catch {
-        Write-Log "新闻抓取失败: $_" "Error"
+    $fetchArgs = @()
+    if ($DryRun) { $fetchArgs += "--dry-run" }
+    if ($Concurrent) { $fetchArgs += "--concurrent" }
+    if ($Workers -gt 0) { $fetchArgs += "--workers"; $fetchArgs += $Workers.ToString() }
+    
+    if (Invoke-PythonScript "fetch_news.py" $fetchArgs) {
+        Write-Log "News fetch complete" "Success"
+    } else {
+        Write-Log "News fetch failed" "Error"
     }
     Write-Log ""
 
-    Write-Log "第2步：更新侧边栏配置..."
-    try {
-        python "$ScriptDir\update_sidebar.py" 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "侧边栏更新完成" "Success"
-    } catch {
-        Write-Log "侧边栏更新失败: $_" "Error"
+    Write-Log "Step 2: Updating sidebar..."
+    if (Invoke-PythonScript "update_sidebar.py") {
+        Write-Log "Sidebar update complete" "Success"
+    } else {
+        Write-Log "Sidebar update failed" "Error"
     }
     Write-Log ""
 
-    Write-Log "第3步：生成文章数据..."
-    try {
-        python "$ScriptDir\generate_articles_json.py" 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "文章数据生成完成" "Success"
-    } catch {
-        Write-Log "文章数据生成失败: $_" "Error"
+    Write-Log "Step 3: Generating article data..."
+    if (Invoke-PythonScript "generate_articles_json.py") {
+        Write-Log "Article data generation complete" "Success"
+    } else {
+        Write-Log "Article data generation failed" "Error"
     }
     Write-Log ""
 
-    Write-Log "第4步：生成 RSS Feed..."
-    try {
-        python "$ScriptDir\generate_feed.py" 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "RSS Feed 生成完成" "Success"
-    } catch {
-        Write-Log "RSS Feed 生成失败: $_" "Error"
+    Write-Log "Step 4: Generating RSS Feed..."
+    if (Invoke-PythonScript "generate_feed.py") {
+        Write-Log "RSS Feed generation complete" "Success"
+    } else {
+        Write-Log "RSS Feed generation failed" "Error"
+    }
+    Write-Log ""
+
+    Write-Log "Step 5: Generating Sitemap..."
+    if (Invoke-PythonScript "generate_sitemap.py") {
+        Write-Log "Sitemap generation complete" "Success"
+    } else {
+        Write-Log "Sitemap generation failed" "Error"
     }
     Write-Log ""
 }
 
-# ── 第5步：构建网站 ──
 if ($DoBuild -and -not $DryRun) {
-    Write-Log "第5步：构建 VitePress 网站..."
+    Write-Log "Step 6: Building VitePress site..."
     
     if (-not (Test-Path "node_modules")) {
-        Write-Log "安装 Node.js 依赖..."
+        Write-Log "Installing Node.js dependencies..."
         try {
-            npm install 2>&1 | Tee-Object -FilePath $LogFile -Append
-            Write-Log "依赖安装完成" "Success"
+            npm install 2>&1 | ForEach-Object { Write-Host $_ }
+            Write-Log "Dependencies installed" "Success"
         } catch {
-            Write-Log "依赖安装失败: $_" "Error"
+            Write-Log "Dependency installation failed: $_" "Error"
         }
     }
 
     try {
-        npm run build 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "网站构建完成！输出目录: docs\.vitepress\dist\" "Success"
+        npm run build 2>&1 | ForEach-Object { Write-Host $_ }
+        Write-Log "Site build complete! Output: docs\.vitepress\dist\" "Success"
     } catch {
-        Write-Log "网站构建失败: $_" "Error"
+        Write-Log "Site build failed: $_" "Error"
     }
     Write-Log ""
 }
 
-# ── 仅生成 RSS ──
 if ($DoFeedOnly) {
-    Write-Log "生成 RSS Feed..."
-    try {
-        python "$ScriptDir\generate_feed.py" 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "RSS Feed 生成完成" "Success"
-    } catch {
-        Write-Log "RSS Feed 生成失败: $_" "Error"
+    Write-Log "Generating RSS Feed..."
+    if (Invoke-PythonScript "generate_feed.py") {
+        Write-Log "RSS Feed generation complete" "Success"
+    } else {
+        Write-Log "RSS Feed generation failed" "Error"
     }
     Write-Log ""
 }
 
-# ── 仅生成 Sitemap ──
 if ($DoSitemapOnly) {
-    Write-Log "生成 Sitemap..."
-    try {
-        python "$ScriptDir\generate_sitemap.py" 2>&1 | Tee-Object -FilePath $LogFile -Append
-        Write-Log "Sitemap 生成完成" "Success"
-    } catch {
-        Write-Log "Sitemap 生成失败: $_" "Error"
+    Write-Log "Generating Sitemap..."
+    if (Invoke-PythonScript "generate_sitemap.py") {
+        Write-Log "Sitemap generation complete" "Success"
+    } else {
+        Write-Log "Sitemap generation failed" "Error"
     }
     Write-Log ""
 }
 
-Write-Log "===== 全部完成！ =====" "Success"
+Write-Log "===== All done! =====" "Success"
