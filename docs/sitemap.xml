@@ -5,114 +5,156 @@
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://smart-agri-blog.github.io/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/policies/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-农业农村部登记推出新一批非主要农作物品种/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-杨凌科技助力全省农业高质量发展大会召开/</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-购种有技巧-查-看-辨-核-保丰收/</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-瓜果蔬菜科学施肥技术指导/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-农业农村部登记推出新一批非主要农作物品种/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-15-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/cases/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/standards/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-14-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-杨凌科技助力全省农业高质量发展大会召开/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-瓜果蔬菜科学施肥技术指导/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-我国首批获得种子认证的马铃薯种薯上市/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-购种有技巧-查-看-辨-核-保丰收/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -124,13 +166,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-瓜果蔬菜科学施肥技术指导/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-杨凌科技助力全省农业高质量发展大会召开/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-14-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-14-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -142,19 +208,73 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/cases/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
     <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/standards/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
     <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/policies/2026-05-13-浙江金华市-无人化配送织密农村寄递物流网/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-农业农村部登记推出新一批非主要农作物品种/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-购种有技巧-查-看-辨-核-保丰收/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-14-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/policies/2026-05-13-打通堵点-推动升级-新科技为农产品品牌发展注入动力/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -166,37 +286,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/policies/2026-05-13-打通堵点-推动升级-新科技为农产品品牌发展注入动力/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://smart-agri-blog.github.io/policies/2026-05-13-区域公用品牌建设核心考验的是政绩观/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-购种有技巧-查-看-辨-核-保丰收/</loc>
+    <loc>https://smart-agri-blog.github.io/policies/2026-05-13-浙江金华市-无人化配送织密农村寄递物流网/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -214,7 +322,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -226,13 +340,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-杨凌科技助力全省农业高质量发展大会召开/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -250,31 +370,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-杨凌科技助力全省农业高质量发展大会召开/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-13-瓜果蔬菜科学施肥技术指导/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-购种有技巧-查-看-辨-核-保丰收/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -292,73 +394,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-13-人工智能-开处方-智慧农机进麦田/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-13-瓜果蔬菜科学施肥技术指导/</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-12-事关-病有所医-医疗保障法草案二次审议/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -376,7 +436,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -388,13 +454,37 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -406,7 +496,31 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-12-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-我国首批获得种子认证的马铃薯种薯上市/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -418,31 +532,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-12-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -454,19 +556,73 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-11-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-陕西加强省级现代农业产业园建设管理/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -490,79 +646,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-陕西加强省级现代农业产业园建设管理/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-11-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-11-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-11-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
-    <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-10-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-陕西加强省级现代农业产业园建设管理/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -574,7 +670,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-陕西加强省级现代农业产业园建设管理/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -586,13 +694,49 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-10-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -610,43 +754,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-事关-病有所医-医疗保障法草案二次审议/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-10-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-10-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -658,55 +766,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-10-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-事关-病有所医-医疗保障法草案二次审议/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -718,13 +790,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -736,7 +802,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -748,19 +826,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -772,37 +856,49 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-09-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-人工智能-开处方-智慧农机进麦田/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-09-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -814,55 +910,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-事关-病有所医-医疗保障法草案二次审议/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -874,19 +922,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-08-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -898,73 +952,73 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-08-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -976,13 +1030,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-人工智能-开处方-智慧农机进麦田/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -994,19 +1060,31 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-习近平-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-求是-杂志发表习近平总书记重要文章-在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-07-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1018,19 +1096,49 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-光荣属于劳动者-幸福属于劳动者-习近平总书记同劳动者在一起的故事/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-07-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1042,79 +1150,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1126,7 +1168,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-06-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1138,19 +1180,85 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-06-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1162,13 +1270,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-人工智能-开处方-智慧农机进麦田/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1186,31 +1288,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-05-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-05-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1222,7 +1306,43 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-05-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-05-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1234,49 +1354,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-人工智能-开处方-智慧农机进麦田/</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1288,19 +1366,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1312,61 +1378,67 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-04-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-事关-病有所医-医疗保障法草案二次审议/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-04-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1378,19 +1450,31 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-03-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-03-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1402,32 +1486,44 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-03-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-03-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1444,19 +1540,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-02-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1468,13 +1564,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-02-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-稳面积-提单产-夯实粮食稳产丰产基础/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-02-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1492,25 +1594,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-02-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-05-02-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1522,37 +1630,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-人工智能-开处方-智慧农机进麦田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1564,7 +1642,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1576,7 +1654,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-05-01-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1588,67 +1678,37 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-05-01-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-04-30-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-2026年智慧农业创新大赛暨雄安智慧农业技术应用大赛公告/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-事关-病有所医-医疗保障法草案二次审议/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1660,7 +1720,55 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-事关-病有所医-医疗保障法草案二次审议/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-2026年智慧农业创新大赛暨雄安智慧农业技术应用大赛公告/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-04-30-山东潍坊-智慧农业-点亮特色产业富民路/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1678,25 +1786,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-从一粒玉米看智慧育种-经济聚焦-农田里的新鲜事/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1708,7 +1816,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-30-贺州富川-AI种菜让设施农业跑出-加速度/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-习近平-着力提高防范应对自然灾害能力-切实维护人民群众生命财产安全/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-30-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1720,7 +1840,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/policies/2026-04-29-从-看天吃饭-到踏实心安-陕西延长县金融护航为果农撑起双保障/</loc>
+    <loc>https://smart-agri-blog.github.io/policies/2026-04-29-减油增豆加奶-助力全民健康-对话王瑛瑶-刘爱玲-程广燕-朱文丽/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1732,31 +1852,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/policies/2026-04-29-减油增豆加奶-助力全民健康-对话王瑛瑶-刘爱玲-程广燕-朱文丽/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-人工智能-开处方-智慧农机进麦田/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <loc>https://smart-agri-blog.github.io/policies/2026-04-29-从-看天吃饭-到踏实心安-陕西延长县金融护航为果农撑起双保障/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1768,13 +1864,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-习近平-树立和践行正确政绩观/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1786,31 +1876,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-从废弃茶青到热销好茶-陕西平利夏秋茶焕新提质/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1822,13 +1888,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-锻造更加坚强的英雄军队-习近平主席引领全军以自我革命精神深化政治整训/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-空中力量再扩容-玉林玉州区智慧农业迈上新台阶/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-聚焦国家战略-矢志拼搏奋斗-习近平总书记的回信激励四所交通大学师生和教育界人士勇攀高峰-砥砺奋进/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1840,13 +1918,55 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-乡村飘来-科技雨-滋润瓜农-致富田/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://smart-agri-blog.github.io/news/2026-04-29-河北雄安新区绘就智慧农业新图景/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/news/2026-04-29-习近平近日作出重要指示强调-把-义乌发展经验-进一步总结好运用好-探索走出符合各自实际的高质量发展之/</loc>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-习近平-树立和践行正确政绩观/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-中共中央政治局召开会议-分析研究当前经济形势和经济工作-中共中央总书记习近平主持会议/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-人工智能-开处方-智慧农机进麦田/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-04-29-玉米-五好-春播方案-让丰产增收走稳走实/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1942,13 +2062,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/cases/2026-03-11-首届智慧农业创新大赛之智能搬运机器人获奖作品/</loc>
+    <loc>https://smart-agri-blog.github.io/cases/2026-03-11-首届智慧农业创新大赛之巡田无人机赛道获奖作品/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/cases/2026-03-11-首届智慧农业创新大赛之巡田无人机赛道获奖作品/</loc>
+    <loc>https://smart-agri-blog.github.io/cases/2026-03-11-首届智慧农业创新大赛之智能搬运机器人获奖作品/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1972,13 +2092,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/cases/2025-12-12-2025年智慧农业典型案例-香菇智慧全产业链模式/</loc>
+    <loc>https://smart-agri-blog.github.io/cases/2025-12-12-2025年智慧农业典型案例-牛奶智慧全产业链模式/</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://smart-agri-blog.github.io/cases/2025-12-12-2025年智慧农业典型案例-牛奶智慧全产业链模式/</loc>
+    <loc>https://smart-agri-blog.github.io/cases/2025-12-12-2025年智慧农业典型案例-香菇智慧全产业链模式/</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
