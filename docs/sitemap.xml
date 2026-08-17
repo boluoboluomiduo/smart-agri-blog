@@ -5,19 +5,151 @@
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://smart-agri-blog.github.io/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/policies/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-生态博物馆视域下和田地区少数民族传统村落文化保护与发展路径研究/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-多国专家盛赞习近平党建思想为世界政党建设提供重要启迪/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-中共中央政治局召开会议-决定召开二十届五中全会-分析研究当前经济形势和经济工作-中共中央总书记习近平/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-当前玉米应对高温热害技术意见/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-玉门县域观察-智慧农业让人参果变-黄金果/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-北京海淀-小农业-承载-大科技-走出强农新路/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-农业农村现代化进程中-农村精神文明建设的价值意蕴与优化路径/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-厚植家国情怀-携手筑梦前行-习近平总书记对侨务工作重要指示激励海内外中华儿女为强国建设-民族复兴伟业/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-中共中央召开党外人士座谈会-习近平主持并发表重要讲话/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-智-绘丰收-甜-果/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-稻田有望迈入-智能抑草-时代-智慧农业催生消费新场景/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-求是-杂志发表习近平总书记重要文章-加快建设健康中国/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-绵竹-智慧农业驱动-守牢-天府粮仓-基本盘/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-智慧农业背景下-农业数据要素的权属界定与法律规制/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-当前水稻应对高温热害技术意见/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-17-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/cases/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/standards/</loc>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -140,18 +272,6 @@
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/cases/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/standards/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-08-15-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
