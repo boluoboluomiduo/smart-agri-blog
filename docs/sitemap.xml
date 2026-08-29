@@ -5,13 +5,151 @@
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://smart-agri-blog.github.io/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/policies/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-农业大模型评测-第一期-通知/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-习近平作出重要指示强调-巩固拓展树立和践行正确政绩观学习教育成果-努力创造经得起实践人民历史检验的实/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-石榴落果原因有哪些/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-华东-水稻-小麦-玉米-棉花等-水稻面积1-47亿亩-小麦1-1亿亩-玉米6000万亩-棉花2600/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-华北-小麦-棉花-玉米-花生-马铃薯-油菜/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-东北-玉米-大豆-小麦和水稻-杂粮等-玉米面积为1-4亿亩-大豆7300万亩-小麦700万亩-水稻5/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-立秋管理不放松-苹果丰收有保证/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-南丰县-智慧养殖赋能家禽产业提质增效/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-陕西聚焦6项任务筑牢粮食和物资储备安全防线/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-中共中央政治局召开会议-决定召开二十届五中全会-分析研究当前经济形势和经济工作-中共中央总书记习近平/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-中南-水稻-小麦-水稻面积l-7亿亩-小麦9000万亩/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-奶牛脱下-毛大衣-或可减少损失百万元/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-西南-水稻-小麦-玉米-油菜-水稻面积7000万亩-小麦3800万亩-玉米5400万亩-油菜2500/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-求是-杂志发表习近平总书记重要文章-提高防灾减灾救灾能力/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-求是-杂志发表习近平总书记重要文章-加快建设健康中国/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-智-绘丰收-甜-果/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-玉门县域观察-智慧农业让人参果变-黄金果/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-习近平对西藏日喀则市吉隆县遭受泥石流灾害作出重要指示/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-葡萄阴雨天管理抓好六件事/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/news/2026-08-29-甘肃古浪县-科技赋能智慧牧场-推动奶产业升级/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-agri-blog.github.io/standards/</loc>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -26,12 +164,6 @@
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/news/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-08-28-中共中央政治局召开会议-决定召开二十届五中全会-分析研究当前经济形势和经济工作-中共中央总书记习近平/</loc>
@@ -152,18 +284,6 @@
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/cases/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-agri-blog.github.io/standards/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://smart-agri-blog.github.io/news/2026-08-27-智-绘丰收-甜-果/</loc>
