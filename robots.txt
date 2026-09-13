@@ -1,0 +1,10 @@
+# 智慧农业资讯站
+User-agent: *
+Allow: /
+
+# 禁止抓取动态生成的 feed 文件（避免重复索引）
+Disallow: /feed.xml
+Disallow: /feed-atom.xml
+Disallow: /feed.json
+
+Sitemap: https://smart-agri-blog.github.io/sitemap.xml

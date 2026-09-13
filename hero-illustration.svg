@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81c784;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景天空 -->
+  <rect width="400" height="300" fill="url(#skyGrad)" rx="16"/>
+
+  <!-- 太阳 -->
+  <circle cx="320" cy="60" r="28" fill="#ffd54f" opacity="0.9"/>
+  <circle cx="320" cy="60" r="36" fill="#ffd54f" opacity="0.3"/>
+
+  <!-- 云朵 -->
+  <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="80" cy="55" rx="25" ry="14"/>
+    <ellipse cx="100" cy="48" rx="20" ry="12"/>
+    <ellipse cx="60" cy="50" rx="18" ry="10"/>
+
+    <ellipse cx="260" cy="85" rx="22" ry="12"/>
+    <ellipse cx="278" cy="80" rx="16" ry="10"/>
+  </g>
+
+  <!-- 远山 -->
+  <path d="M0 220 Q80 160 160 200 Q240 140 320 190 Q360 170 400 200 L400 300 L0 300 Z" fill="url(#hillGrad2)"/>
+
+  <!-- 近山/田地 -->
+  <path d="M0 240 Q100 200 200 230 Q300 190 400 230 L400 300 L0 300 Z" fill="url(#hillGrad)"/>
+
+  <!-- 农田线条 -->
+  <g stroke="#4caf50" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M20 260 Q60 250 100 265"/>
+    <path d="M40 275 Q80 265 120 280"/>
+    <path d="M280 255 Q320 245 360 260"/>
+    <path d="M300 270 Q340 260 380 275"/>
+  </g>
+
+  <!-- 智慧农业元素：无人机 -->
+  <g transform="translate(180, 90)">
+    <!-- 机身 -->
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#455a64"/>
+    <!-- 机臂 -->
+    <line x1="-20" y1="-8" x2="20" y2="-8" stroke="#455a64" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-20" y1="8" x2="20" y2="8" stroke="#455a64" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 螺旋桨 -->
+    <ellipse cx="-22" cy="-8" rx="10" ry="2" fill="#90a4ae" opacity="0.7"/>
+    <ellipse cx="22" cy="-8" rx="10" ry="2" fill="#90a4ae" opacity="0.7"/>
+    <ellipse cx="-22" cy="8" rx="10" ry="2" fill="#90a4ae" opacity="0.7"/>
+    <ellipse cx="22" cy="8" rx="10" ry="2" fill="#90a4ae" opacity="0.7"/>
+    <!-- 信号 -->
+    <path d="M0 -15 Q-8 -28 0 -35 Q8 -28 0 -15" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="0" cy="-38" r="2" fill="#42a5f5" opacity="0.6"/>
+  </g>
+
+  <!-- 智慧农业元素：传感器/气象站 -->
+  <g transform="translate(100, 205)">
+    <rect x="-3" y="0" width="6" height="25" fill="#78909c" rx="1"/>
+    <circle cx="0" cy="-5" r="8" fill="#eceff1" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="-6" y1="-5" x2="6" y2="-5" stroke="#78909c" stroke-width="1"/>
+    <line x1="0" y1="-11" x2="0" y2="1" stroke="#78909c" stroke-width="1"/>
+    <!-- 信号波纹 -->
+    <path d="M10 -5 Q14 -10 18 -5" fill="none" stroke="#42a5f5" stroke-width="1" opacity="0.5"/>
+    <path d="M12 -5 Q16 -12 20 -5" fill="none" stroke="#42a5f5" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- 智慧农业元素：数据图表（抽象） -->
+  <g transform="translate(300, 180)">
+    <rect x="-20" y="-15" width="40" height="30" fill="#ffffff" stroke="#cfd8dc" stroke-width="1" rx="4" opacity="0.9"/>
+    <polyline points="-12 5 -4 -2 4 3 12 -5" fill="none" stroke="#2d7a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-12" cy="5" r="2" fill="#2d7a3a"/>
+    <circle cx="-4" cy="-2" r="2" fill="#2d7a3a"/>
+    <circle cx="4" cy="3" r="2" fill="#2d7a3a"/>
+    <circle cx="12" cy="-5" r="2" fill="#2d7a3a"/>
+  </g>
+
+  <!-- 植物/作物 -->
+  <g transform="translate(60, 245)">
+    <path d="M0 0 Q-8 -15 -5 -25 Q0 -30 5 -25 Q8 -15 0 0" fill="#4caf50"/>
+    <path d="M0 0 Q-12 -12 -10 -22 Q-5 -28 0 -22" fill="#66bb6a"/>
+    <path d="M0 0 Q12 -12 10 -22 Q5 -28 0 -22" fill="#66bb6a"/>
+  </g>
+
+  <g transform="translate(340, 250)">
+    <path d="M0 0 Q-8 -15 -5 -25 Q0 -30 5 -25 Q8 -15 0 0" fill="#4caf50"/>
+    <path d="M0 0 Q-12 -12 -10 -22 Q-5 -28 0 -22" fill="#66bb6a"/>
+    <path d="M0 0 Q12 -12 10 -22 Q5 -28 0 -22" fill="#66bb6a"/>
+  </g>
+
+  <!-- 装饰性数据点 -->
+  <g fill="#2d7a3a" opacity="0.15">
+    <circle cx="50" cy="120" r="3"/>
+    <circle cx="350" cy="140" r="4"/>
+    <circle cx="150" cy="100" r="2"/>
+    <circle cx="280" cy="110" r="3"/>
+    <circle cx="200" cy="130" r="2"/>
+  </g>
+</svg>
